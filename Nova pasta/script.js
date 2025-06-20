@@ -1,0 +1,48 @@
+class Pessoa {
+    constructor(Nome,Sobrenome,Idade) {
+        this.Nome = Nome;
+        this.Sobrenome = Sobrenome;
+        this.Idade = Idade;
+
+    }
+    
+    speak(){
+        console.log(`${this.Nome} ${this.Sobrenome} tem ${this.Idade}`);
+    }
+    
+}
+
+
+const pessoa = new Pessoa("Vinicius", "Belloni", 16);
+
+function alerta() {
+    alert(JSON.stringify(pessoa));
+}
+alerta()
+console.log(pessoa);
+
+
+pessoa.speak();
+
+
+
+
+{/* <div>
+        <pre>
+            <code>class Pessoa {
+                constructor(Nome,Sobrenome,Idade) {
+                    this.Nome = Nome;
+                    this.Sobrenome = Sobrenome;
+                    this.Idade = Idade;
+                }
+            }
+            
+            
+            const pessoa = new Pessoa("Vinicius", "Belloni", 16);
+            
+            console.log(pessoa);
+            
+            </code>
+        </pre>
+    </div> */}
+

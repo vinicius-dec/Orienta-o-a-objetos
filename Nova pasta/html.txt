@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação a Objetos em JavaScript</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tutorial: Introdução à Orientação a Objetos</h1>
+        <br>
+        
+
+
+        <p>O que Orientação a Objetos? Orientação a objetos é um paradigma aplicado na programação que consiste na interação
+            entre diversas unidades chamadas de objetos. Usamos a orientação a objetos para nos basear na vida real e resolver problemas de software, ou pelo menos
+            tentamos. Ela acaba sendo uma base inclusive para outros paradigmas.</p>
+        <br>
+
+        
+            <h2>Orientação a Objetos em JavaScript</h2>
+
+
+        <p>Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor.
+            Um valor de propriedade pode ser uma função, que é então considerada um método do objeto.</p>
+
+        <p>É uma das maneiras mais populares de programarmos é utilizando o modelo Orientado à Objetos, dessa maneira,
+            conseguimos criar um reaproveitamento e organização de código muito grande, consequentemente tornando a
+            manutenção do mesmo mais fácil e simples.</p>
+
+        <p>Um objeto é composto por atributos e métodos. Os atributos são as características do objeto. Os métodos são as
+            ações que o
+            objeto pode realizar. É uma instância de uma classe, que é uma estrutura que define as características e os
+            comportamentos comuns de um conjunto de objetos.</p>
+
+        <p>Uma classe é um modelo ou um plano para criar objetos. Ela define os atributos e métodos que o objeto terá. É
+            como um molde que cria objetos com as mesmas propriedades e funcionalidades. Por exemplo, podemos ter uma classe
+            Pessoa, que define os atributos nome, idade e sexo, e os métodos falar, andar e dormir.</p>
+        <br>
+        <br>
+
+        <p>Por exemplo:</p>
+
+        <div>
+            <pre>
+                    <code>class Pessoa {
+                        constructor(Nome,Sobrenome,Idade) {
+                            this.Nome = Nome;
+                            this.Sobrenome = Sobrenome;
+                            this.Idade = Idade;
+                        }
+                    }
+                    
+                    
+                        const pessoa = new Pessoa("Vinicius", "Belloni", 16);
+                    
+                    
+                        function alerta() {
+                            alert(JSON.stringify(pessoa));
+                        }
+                        alerta()
+                    
+                    </code>
+                    <button  onclick="alerta()">Conferir</button>
+                </pre>
+        </div>
+
+
+        <p>Foi criada uma classe chamada Pessoa ,um objeto, e o contruindo por meio da função constructor, colocando seu
+            atributos como nome, sobrenome e idade. </p>
+    </div>
+</body>
+
+</html>

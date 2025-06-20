@@ -1,0 +1,42 @@
+body{
+    background-color: #F7E025;
+}
+
+
+.container{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+  
+    justify-self: center;
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1{
+   text-align: center;
+}
+
+pre{
+    background-color: #263238;
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+
+}
+button{
+    color: white;
+    background-color: black;
+    width: 70px;
+    height: 30px;
+}
